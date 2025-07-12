@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<f>, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <main>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Feedback</legend>
+
+          <div>
+            <div><label for="name">Name</label></div>
+
+            <input
+              type="text"
+              placeholder="Your name"
+              id="name"
+              name="name"
+              required
+            />
+          </div>
+
+          <div>
+            <div><label for="age">Age</label></div>
+
+            <input
+              type="number"
+              min="1"
+              max="99"
+              id="age"
+              name="age"
+              required
+            />
+          </div>
+
+          <div>
+            <div><label for="comment">Leave your comment</label></div>
+
+            <textarea id="comment" name="comment"></textarea>
+          </div>
+
+          <div>
+            <div>
+              <input type="checkbox" name="privacy" id="privacy-cb" />
+              <label for="privacy-cb">Accept privacy policy</label>
+            </div>
+            <div>
+              <input type="checkbox" name="terms" id="terms-cb" />
+              <label for="terms-cb">Accept Terms and Conditions</label>
+            </div>
+          </div>
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+      <button><a href="./index.html">Back to home</a></button>
+    </main>
+  </body>
+</html>
