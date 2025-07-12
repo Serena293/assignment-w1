@@ -15,5 +15,6 @@ The goal of this project is to build a simple, static website using **HTML5**, w
 
 - HTML5
 
+Check it out --> https://serena293.github.io/assignment-w1/#
 
 
