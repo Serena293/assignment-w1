@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=<f>, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Contact</title>
   </head>
   <body>
@@ -10,22 +10,18 @@
       <form action="#" method="post">
         <fieldset>
           <legend>Feedback</legend>
-
           <div>
+            <!-- divs are used as block element, to push content to the next line -->
             <div><label for="name">Name</label></div>
-
             <input
               type="text"
               placeholder="Your name"
               id="name"
               name="name"
               required
-            />
-          </div>
-
+            /></div>
           <div>
             <div><label for="age">Age</label></div>
-
             <input
               type="number"
               min="1"
@@ -33,15 +29,11 @@
               id="age"
               name="age"
               required
-            />
-          </div>
-
+            /></div>
           <div>
             <div><label for="comment">Leave your comment</label></div>
-
             <textarea id="comment" name="comment"></textarea>
           </div>
-
           <div>
             <div>
               <input type="checkbox" name="privacy" id="privacy-cb" />
@@ -55,7 +47,7 @@
           <button type="submit">Submit</button>
         </fieldset>
       </form>
-      <button><a href="./index.html">Back to home</a></button>
+     <a href="./index.html">Back to home</a>
     </main>
   </body>
 </html>
